@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "options": ["Paris", "Berlin", "Rome", "Madrid"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Who wrote 'Macbeth'?",
+    "options": ["Shakespeare", "Dickens", "Austen", "Hemingway"],
+    "answer": "Shakespeare"
+  }
+]

@@ -1,0 +1,86 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#quiz-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+#question-box {
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+
+#answers {
+  list-style: none;
+  padding: 0;
+}
+
+#answers li {
+  background-color: #1f2937;
+  margin: 10px 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#answers li:hover {
+  background-color: #374151;
+  transform: scale(1.02);
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #10b981;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#next-btn:hover {
+  background-color: #059669;
+}
+
+#result-box {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
